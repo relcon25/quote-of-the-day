@@ -54,6 +54,10 @@ Create a `.env` file in your backend directory with the following variables (adj
        MAX_QUOTES=500
        QUOTES_PER_PAGE=50
 
+Create a `.env` file in you frontend directory with:
+
+       REACT_APP_API_BASE_URL=http://localhost:3001/v1/api
+
 ## Running the Application
 
 Run the following command from the project root:
